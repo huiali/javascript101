@@ -4,6 +4,8 @@ for (var i = 1; i <= 5; i++) {
     }, i * 1000);
 }
 
+/////////////////////////////////////////////////////////
+
 for (var i = 1; i <= 5; i++) {
     (function (j) {
         setTimeout(function timer() {
@@ -12,8 +14,11 @@ for (var i = 1; i <= 5; i++) {
     })(i); 
 }
 
+/////////////////////////////////////////////////////////
+
 for (let i = 1; i <= 5; i++) {
     setTimeout(function timer() {
         console.log(i);//1..5
     }, i * 1000);
 }
+

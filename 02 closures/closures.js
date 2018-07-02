@@ -8,6 +8,8 @@ function foo1() {
 var baz = foo1(); 
 baz();
 
+/////////////////////////////////////////////////////////
+
 function foo2() {
     var a = 2; 
     function baz() {
@@ -20,7 +22,7 @@ function bar(fn) {
 }
 foo2();
 
-
+/////////////////////////////////////////////////////////
 
 var fn; 
 function foo3() {

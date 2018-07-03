@@ -1,9 +1,23 @@
-var obj = {
-    fun: function (c, d) {
-        console.log(`${this.a},${this.b},${c},${d}`)
-    },
+function fn1() {
+    console.log(this.a);
 }
-var thisobj = { a: "test", b: 23 }
-obj.fun.call(thisobj, "aaa", "bbb");
-obj.fun.apply(thisobj, ["ccc", "ddd"]);
-obj.fun.bind(thisobj, "eee", "fff")();
+var obj = {
+    a: 2,
+    foo: foo
+};
+obj.fn1(); // 2
+
+////////////////////////////////////////////////
+
+function fn2() {
+    console.log(this.a);
+}
+var obj2 = {
+    a: 42,
+    foo: foo
+};
+var obj1 = {
+    a: 2,
+    obj2: obj2
+};
+obj1.obj2.fn2(); // 42

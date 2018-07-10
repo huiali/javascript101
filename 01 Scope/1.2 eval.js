@@ -5,6 +5,7 @@ function foo(str, a) {
 var b = 2;
 foo("var b = 3;", 1); //1,3
 
+//
 /////////////////////////////////////////////////////////
 
 function foo(str) {
@@ -15,4 +16,4 @@ function foo(str) {
 foo("var a = 2");
 
 
-//Not recommended for use 
+// eval(..) 通常被用来执行动态创建的代码，不建议使用。

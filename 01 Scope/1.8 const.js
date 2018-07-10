@@ -4,6 +4,6 @@ if (foo) {
     var a = 2; 
     const b = 3;
     a = 3; 
-    b = 4; //error
+    //b = 4; //error
 } 
-console.log(a); //ReferenceError!
+console.log(b); //b is not defined

@@ -5,7 +5,7 @@ try {
 }
 console.log(err); // ReferenceError: err not found
 
-
+//try / catch 的 catch 分句会创建一个块作用域，其中声明的变量仅在 catch 内部有效。
 ///////////////////////////////////////////////////
 
 try { throw 2; } catch (a) {

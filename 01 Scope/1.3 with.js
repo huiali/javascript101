@@ -13,4 +13,4 @@ with (obj) {
     c = 9;
 }
 
-//Not recommended for use 
+//不建议使用

@@ -1,7 +1,7 @@
 function process(data) {
   
 }
-//destroy after execution 
+//{...}中的代码段执行完后销毁 
 {
     let someReallyBigData = { };
     process(someReallyBigData);

@@ -1,3 +1,8 @@
+// TypedArray 提供了对二进制数据 buffer 的各种整型类型“视图”，比如 8 位无符号整型和
+// 32 位浮点型。对二进制数据的数组访问使得运算更容易表达和维护，从而可以更容易操纵
+// 视频、音频、canvas 数据等这样的复杂数据。
+
+
 var buf = new ArrayBuffer( 32 );
 buf.byteLength;  //32
 
